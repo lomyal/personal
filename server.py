@@ -38,7 +38,8 @@ def index():
     主页入口
     :return:
     """
-    return flask.render_template('index.html')
+    return flask.redirect('http://mullover.me')
+    # return flask.render_template('index.html')
 
 
 if __name__ == '__main__':
